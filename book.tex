@@ -1,0 +1,36 @@
+\documentclass{book} \usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{babel}
+\usepackage[backend=biber,style=authortitle]{biblatex}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    bookmarks=true,
+}
+\urlstyle{same}
+
+\title{Book Title}
+\author{Tralah M Brian}
+
+\addbibresource{references.bib}
+
+\begin{document}
+\maketitle
+\chapter*{Abstract}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\cite{TralahTek}
+\chapter*{Dedication}
+To my family, without whom this book would not be possible, Thank You.
+\chapter*{Acknowledgements}
+\tableofcontents
+\chapter{Background}
+\chapter{Getting Started}
+\chapter{Bibliography}
+\printbibliography
+\chapter*{Appendix}
+\end{document}
