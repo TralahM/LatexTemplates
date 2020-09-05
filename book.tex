@@ -1,9 +1,13 @@
-\documentclass{book} \usepackage{graphicx}
+\documentclass{book}
+\usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{blindtext}
 \usepackage[utf8]{inputenc}
 \usepackage{babel}
 \usepackage[backend=biber,style=authortitle]{biblatex}
 \usepackage{hyperref}
+\usepackage{listing}
+\usepackage{color}
 
 \hypersetup{
     colorlinks=true,
@@ -21,6 +25,24 @@
 
 \begin{document}
 \maketitle
+\chapter*{About the Author}
+\textbf{Tralah M Brian} has worked in the IT industry for over 5 years as both a
+programmer and data scientist. During this time he has developed Unix sytems and
+Microsoft systems as well as helped design and maintain 100 data science
+infrastractures. He has used Linux servers, programmed in a number of
+programming languages including C, C++ and Python as wll as shell scripts to
+perform automated infrastructure provisioning and monitoring and has written
+scripts and programs in just about every Unix shell environments.
+
+Tralah has a bachelor of science degree in Mathematics and Computer Science, and
+a masters degree in Data Science specializing in Artificial Intelligence from
+Jommo Kenyatta University of Agriculture and Technology. He is the Author of
+several books including \textit{African Tradition in Computer Science,
+Technology in advancing African Unification}. He's also a coauthor of
+\textit{Performance Optimization in Data Analytics Systems}. When he's not being
+a computer nerd, Tralah engages in philosophical debates and enjoys spending
+time with his wife, Isabel, and their three children, Mutiso, Wathi, and Koki.
+
 \chapter*{Abstract}
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 \cite{TralahTek}
@@ -29,7 +51,9 @@ To my family, without whom this book would not be possible, Thank You.
 \chapter*{Acknowledgements}
 \tableofcontents
 \chapter{Background}
+\blindtext
 \chapter{Getting Started}
+\blindtext
 \chapter{Bibliography}
 \printbibliography
 \chapter*{Appendix}
